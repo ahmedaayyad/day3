@@ -1,0 +1,92 @@
+
+.tables {
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  align-items: center;
+  gap: var(--spacing-spacing-4);
+  padding: 0px var(--spacing-spacing-4);
+  position: relative;
+}
+
+.tables .row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-spacing-4);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+/* Common styles for table cards */
+.tables .table-card,
+.tables .main-title-wrapper,
+.tables .div-wrapper,
+.tables .div {
+  display: flex;
+  flex-direction: column;
+  min-width: 90px;
+  height: 56px;
+  gap: 24px;
+  padding: 12px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--colors-background-white-60);
+  border-radius: 16px;
+  backdrop-filter: blur(2px) brightness(100%);
+  -webkit-backdrop-filter: blur(2px) brightness(100%);
+}
+
+/* Specific alignments */
+.tables .table-card {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tables .main-title-wrapper,
+.tables .div-wrapper,
+.tables .div {
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+/* Border styles */
+.tables .table-card,
+.tables .main-title-wrapper,
+.tables .div-wrapper {
+  border-left-width: 4px;
+}
+
+.tables .table-card,
+.tables .div-wrapper {
+  border-left-style: solid;
+}
+
+.tables .main-title-wrapper {
+  border-left-style: dashed;
+}
+
+.tables .table-card,
+.tables .main-title-wrapper {
+  border-color: var(--colors-border-status-occupied);
+}
+
+.tables .div-wrapper {
+  border-color: var(--colors-border-status-accepted);
+}
+
+/* Title styles */
+.tables .main-title {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--headline-font-family);
+  font-weight: var(--headline-font-weight);
+  color: var(--colors-text-black-100);
+  font-size: var(--headline-font-size);
+  text-align: center;
+  letter-spacing: var(--headline-letter-spacing);
+  line-height: var(--headline-line-height);
+  font-style: var(--headline-font-style);
+}
