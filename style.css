@@ -212,7 +212,7 @@
 .tables1 {
   display: flex;
   flex-direction: column;
-  height: 688px;
+  height: 250px;
   align-items: center;
   gap: var(--spacing-spacing-41);
   padding: 0px var(--spacing-spacing-41) 0px var(--spacing-spacing-41);
