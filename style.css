@@ -169,7 +169,7 @@
     align-items: flex-start;
     gap: var(--spacing-spacing-3);
     padding: var(--spacing-spacing-3);
-    position: relative;
+    position: center;
     align-self: stretch;
     width: 288px;
     height: 68px;
