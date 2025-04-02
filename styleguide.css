@@ -81,4 +81,30 @@
   --colors-border-status-occupied1: rgba(255, 95, 95, 1);
   --colors-border-status-accepted1: rgba(17, 151, 23, 1);
 
+
+  --headline-font-family2: "DM Sans", Helvetica; 
+  --headline-font-weight2: 500;
+  --headline-font-size2: 20px;
+  --headline-letter-spacing2: -0.2px;
+  --headline-line-height2: 24px;
+  --headline-font-style2: normal; 
+  --caption-bold-font-family2: "DM Sans", Helvetica;
+  --caption-bold-font-weight2: 700;
+  --caption-bold-font-size2: 13px; 
+  --caption-bold-letter-spacing2: 0px; 
+  --caption-bold-line-height2: 16px;
+  --caption-bold-font-style2: normal; 
+  --caption-normal-font-family2: "DM Sans", Helvetica;
+  --caption-normal-font-weight2: 400;
+  --caption-normal-font-size2: 13px; 
+  --caption-normal-letter-spacing2: 0px;
+  --caption-normal-line-height2: 16px; 
+  --caption-normal-font-style2: normal; 
+  --spacing-spacing-42: 16px;
+  --spacing-spacing-22: 8px; 
+  --radius-round-32: 16px; 
+  --colors-background-black-52: rgba(0, 0, 0, 0.05); 
+  --colors-text-black-1002: rgba(0, 0, 0, 1); 
+  --colors-text-black-602: rgba(0, 0, 0, 0.6); 
+  --colors-background-white-602: rgba(255, 255, 255, 0.6);
 }
