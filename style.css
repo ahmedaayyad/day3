@@ -111,9 +111,11 @@
 }
 
 .modal .modal-title {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
+  font-family: var(--title-3-font-family);
+  font-weight: var(--title-3-font-weight);
+  font-size: var(--title-3-font-size);
+  letter-spacing: var(--title-3-letter-spacing);
+  line-height: var(--title-3-line-height);
   color: #000;
 }
 
@@ -134,8 +136,9 @@
 .modal .text-wrapper {
   width: 100%;
   text-align: left;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-family: var(--body-normal-font-family);
+  font-weight: var(--body-normal-font-weight);
+  font-size: var(--body-normal-font-size);
   color: #333;
   margin-bottom: 12px;
 }
@@ -151,15 +154,17 @@
 }
 
 .modal .food-name {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  color: #000;
+  font-family: var(--headline-font-family);
+  font-weight: var(--headline-font-weight);
+  font-size: var(--headline-font-size);
+  color: var(--colors-text-black-100);
   margin-bottom: 4px;
 }
 
 .modal .subtitle {
-  font-size: 14px;
+  font-family: var(--caption-normal-font-family);
+  font-weight: var(--caption-normal-font-weight);
+  font-size: var(--caption-normal-font-size);
   color: #666;
 }
 
@@ -176,8 +181,9 @@
   width: 100%;
   background-color: red;
   color: white;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  font-size: var(--button-large-font-size);
   border-radius: 26px;
   cursor: pointer;
   border: none;
