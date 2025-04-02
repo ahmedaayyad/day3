@@ -1,0 +1,66 @@
+:root {
+  /* Font Families */
+  --font-family-dm-sans: "DM Sans", Helvetica;
+  --font-family-helvetica: Helvetica;
+  
+  /* Typography - Title 3 */
+  --title-3-font-family: var(--font-family-dm-sans);
+  --title-3-font-weight: 700;
+  --title-3-font-size: 22px;
+  --title-3-letter-spacing: -0.22px;
+  --title-3-line-height: 24px;
+  --title-3-font-style: normal;
+
+  /* Typography - Title 2 */
+  --title-2-font-family: var(--font-family-dm-sans);
+  --title-2-font-weight: 700;
+  --title-2-font-size: 24px;
+  --title-2-letter-spacing: -0.48px;
+  --title-2-line-height: 32px;
+  --title-2-font-style: normal;
+  
+  /* Typography - Body Normal */
+  --body-normal-font-family: var(--font-family-dm-sans);
+  --body-normal-font-weight: 400;
+  --body-normal-font-size: 16px;
+  --body-normal-letter-spacing: -0.16px;
+  --body-normal-line-height: 24px;
+  --body-normal-font-style: normal;
+  
+  /* Typography - Headline */
+  --headline-font-family: var(--font-family-dm-sans);
+  --headline-font-weight: 500;
+  --headline-font-size: 20px;
+  --headline-letter-spacing: -0.2px;
+  --headline-line-height: 24px;
+  --headline-font-style: normal;
+  
+  /* Typography - Caption Normal */
+  --caption-normal-font-family: var(--font-family-dm-sans);
+  --caption-normal-font-weight: 400;
+  --caption-normal-font-size: 13px;
+  --caption-normal-letter-spacing: 0px;
+  --caption-normal-line-height: 16px;
+  --caption-normal-font-style: normal;
+  
+  /* Typography - Button Large */
+  --button-large-font-family: var(--font-family-dm-sans);
+  --button-large-font-weight: 700;
+  --button-large-font-size: 16px;
+  --button-large-letter-spacing: -0.16px;
+  --button-large-line-height: 24px;
+  --button-large-font-style: normal;
+
+  /* Spacing */
+  --spacing-spacing-0: 0px;
+  --spacing-spacing-3: 12px;
+  --spacing-spacing-4: 16px;
+  
+  /* Colors */
+  --colors-background-white-100: rgba(255, 255, 255, 1);
+  --colors-text-black-100: rgba(0, 0, 0, 1);
+  --colors-text-white-100: rgba(255, 255, 255, 1);
+  --colors-background-semantic-red-100: rgba(225, 14, 14, 1);
+  --colors-border-black-20: rgba(0, 0, 0, 0.2);
+  --colors-text-black-60: rgba(0, 0, 0, 0.6);
+}
