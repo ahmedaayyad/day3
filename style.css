@@ -86,7 +86,7 @@
 }
 
 /* Main Modal Styling */
-.modal {
+.modal2 {
   display: flex;
   flex-direction: column;
   width: 360px;
@@ -102,7 +102,7 @@
 }
 
 /* Header Section */
-.modal .modal-header {
+.modal2 .modal-header2 {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,7 @@
   padding-bottom: 12px;
 }
 
-.modal .modal-title {
+.modal2 .modal-title2 {
   font-family: var(--title-3-font-family);
   font-weight: var(--title-3-font-weight);
   font-size: var(--title-3-font-size);
@@ -120,7 +120,7 @@
 }
 
 /* Close Button */
-.modal .iconic-buttons-large {
+.modal2 .iconic-buttons-large2 {
   width: 48px;
   height: 48px;
   display: flex;
@@ -133,7 +133,7 @@
 }
 
 /* Confirmation Text */
-.modal .text-wrapper {
+.modal2 .text-wrapper2 {
   width: 100%;
   text-align: left;
   font-family: var(--body-normal-font-family);
@@ -148,7 +148,7 @@
 }
 
 /* Item Information Card */
-.modal .component {
+.modal2 .component2 {
   background-color: #ffffff;
   border-radius: 12px;
   border: 1px solid #ddd;
@@ -157,7 +157,7 @@
   margin-bottom: 16px;
 }
 
-.modal .food-name {
+.modal2 .food-name2 {
     font-family: var(--headline-font-family);
     font-weight: var(--headline-font-weight);
     color: var(--colors-text-black-100);
@@ -168,7 +168,7 @@
   margin-bottom: 4px;
 }
 
-.modal .subtitle {
+.modal2 .subtitle2 {
   font-family: var(--caption-normal-font-family);
   font-weight: var(--caption-normal-font-weight);
   font-size: var(--caption-normal-font-size);
@@ -176,11 +176,11 @@
 }
 
 /* Button Section */
-.modal .medium-button-wrapper {
+.modal2 .medium-button-wrapper2 {
   width: 100%;
 }
 
-.modal .medium-button {
+.modal2 .medium-button 2{
   display: flex;
   height: 52px;
   align-items: center;
@@ -196,7 +196,7 @@
   border: none;
 }
 
-.modal .text-button {
+.modal2 .text-button2 {
     position: relative;
     width: fit-content;
     font-family: var(--button-large-font-family);
