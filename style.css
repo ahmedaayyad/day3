@@ -323,114 +323,115 @@
   -webkit-backdrop-filter: blur(2px) brightness(100%);
 }
 
-.frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    height: 682px;
-    padding: var(--spacing-spacing-42);
-    position: relative;
-    background-color: var(--colors-background-black-52);
-    border-radius: var(--radius-round-32);
+
+.frame { 
+ display: flex; 
+ flex-direction: column; 
+ height: 682px; 
+ align-items: flex-start; 
+ gap: 16px;
+ padding: var(--spacing-spacing-4); 
+ position: relative;
+ background-color: var(--colors-background-black-52); 
+ border-radius: var(--radius-round-32);
 }
 
-.frame .text-wrapper {
-    width: fit-content;
-    position: relative;
-    margin-top: -1px;
-    font-family: var(--headline-font-family2);
-    font-weight: var(--headline-font-weight2);
-    font-size: var(--headline-font-size2);
-    font-style: var(--headline-font-style2);
-    letter-spacing: var(--headline-letter-spacing2);
-    line-height: var(--headline-line-height2);
-    color: var(--colors-text-black-1002);
-    white-space: nowrap;
+.frame .text-wrapper { 
+ position: relative;
+ width: fit-content; 
+ margin-top: -1.00px; 
+ font-family: var(--headline-font-family2); 
+ font-weight: var(--headline-font-weight2);
+ color: var(--colors-text-black-1002); 
+ font-size: var(--headline-font-size2);
+ letter-spacing: var(--headline-letter-spacing);
+ line-height: var(--headline-line-height2);
+ white-space: nowrap;
+ font-style: var(--headline-font-style2);
 }
 
-.frame .div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--spacing-spacing-22);
-    width: 100%;
-    align-self: stretch;
-    flex: 0 0 auto;
-    position: relative;
-    margin-bottom: -2px;
+.frame .div { 
+ flex-direction: column;
+  gap: var(--spacing-spacing-22); 
+ align-self: stretch;
+ width: 100%; 
+ flex: 0 0 auto; 
+ margin-bottom: -2.00px;
+ display: flex; 
+ align-items: flex-start; 
+ position: relative;
 }
 
 .frame .div-2 {
-    display: flex;
-    align-items: flex-start;
-    gap: var(--spacing-spacing-22);
-    width: 100%;
-    align-self: stretch;
-    flex: 0 0 auto;
-    position: relative;
+ gap: var(--spacing-spacing-22);
+ align-self: stretch; 
+ width: 100%; 
+ flex: 0 0 auto;
+ display: flex;
+ align-items: flex-start; 
+ position: relative;
 }
 
-.frame .div-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex: 1;
-    flex-grow: 1;
-    height: 116px;
-    padding: var(--spacing-spacing-4);
-    position: relative;
-    background-color: var(--colors-background-white-602);
-    border-radius: var(--radius-round-32);
+.frame .div-3 { 
+ flex-direction: column;
+ height: 116px;
+ justify-content: space-between;
+ padding: var(--spacing-spacing-42); 
+ flex: 1; 
+ flex-grow: 1; 
+ background-color: var(--colors-background-white-602); 
+ border-radius: var(--radius-round-32);
+ display: flex; 
+ align-items: flex-start; 
+ position: relative;
 }
 
-.frame .title {
-    align-self: stretch;
-    position: relative;
-    margin-top: -1px;
-    font-family: var(--caption-bold-font-family2);
-    font-weight: var(--caption-bold-font-weight2);
-    font-size: var(--caption-bold-font-size2);
-    font-style: var(--caption-bold-font-style2);
-    letter-spacing: var(--caption-bold-letter-spacing2);
-    line-height: var(--caption-bold-line-height2);
-    color: var(--colors-text-black-1002);
+.frame .title { 
+ position: relative;
+ align-self: stretch;
+ margin-top: -1.00px; 
+ font-family: var(--caption-bold-font-family2);
+ font-weight: var(--caption-bold-font-weight2);
+ color: var(--colors-text-black-1002);
+ font-size: var(--caption-bold-font-size2);
+ letter-spacing: var(--caption-bold-letter-spacing2);
+ line-height: var(--caption-bold-line-height2); 
+ font-style: var(--caption-bold-font-style2);
 }
 
-.frame .order-num {
-    display: flex;
-    align-items: flex-start;
-    gap: 3px;
-    width: 100%;
-    align-self: stretch;
-    flex: 0 0 auto;
-    position: relative;
+.frame .order-num { 
+ display: flex;
+ align-items: flex-start;
+ gap: 3px; 
+ position: relative;
+ align-self: stretch;
+ width: 100%; 
+ flex: 0 0 auto;
 }
 
 .frame .title-2 {
-    width: fit-content;
-    position: relative;
-    margin-top: -1px;
-    font-family: var(--caption-normal-font-family2);
-    font-weight: var(--caption-normal-font-weight2);
-    font-size: var(--caption-normal-font-size2);
-    font-style: var(--caption-normal-font-style2);
-    letter-spacing: var(--caption-normal-letter-spacing2);
-    line-height: var(--caption-normal-line-height2);
-    color: var(--colors-text-black-602);
-    white-space: nowrap;
+ position: relative;
+ width: fit-content;
+ margin-top: -1.00px;
+ font-family: var(--caption-normal-font-family2);
+ font-weight: var(--caption-normal-font-weight2); 
+ color: var(--colors-text-black-602);
+ font-size: var(--caption-normal-font-size2);
+ letter-spacing: var(--caption-normal-letter-spacing2);
+ line-height: var(--caption-normal-line-height2);
+ white-space: nowrap; 
+ font-style: var(--caption-normal-font-style2);
 }
 
-.frame .num {
-    flex: 1;
-    position: relative;
-    margin-top: -1px;
-    font-family: var(--caption-bold-font-family2);
-    font-weight: var(--caption-bold-font-weight2);
-    font-size: var(--caption-bold-font-size2);
-    font-style: var(--caption-bold-font-style2);
-    letter-spacing: var(--caption-bold-letter-spacing2);
-    line-height: var(--caption-bold-line-height2);
-    color: var(--colors-text-black-1002);
+.frame .num { 
+ position: relative;
+ flex: 1; 
+ margin-top: -1.00px;
+ font-family: var(--caption-bold-font-family2);
+ font-weight: var(--caption-bold-font-weight2); 
+ color: var(--colors-text-black-1002); 
+ font-size: var(--caption-bold-font-size2); 
+ letter-spacing: var(--caption-bold-letter-spacing2);
+ line-height: var(--caption-bold-line-height2);
+ font-style: var(--caption-bold-font-style2);
 }
