@@ -188,3 +188,16 @@
   cursor: pointer;
   border: none;
 }
+
+.modal .text-button {
+    position: relative;
+    width: fit-content;
+    font-family: var(--button-large-font-family);
+    font-weight: var(--button-large-font-weight);
+    color: var(--colors-text-white-100);
+    font-size: var(--button-large-font-size);
+    letter-spacing: var(--button-large-letter-spacing);
+    line-height: var(--button-large-line-height);
+    white-space: nowrap;
+    font-style: var(--button-large-font-style);
+}
