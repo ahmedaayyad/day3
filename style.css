@@ -156,10 +156,13 @@
 }
 
 .modal .food-name {
-  font-family: var(--headline-font-family);
-  font-weight: var(--headline-font-weight);
-  font-size: var(--headline-font-size);
-  color: var(--colors-text-black-100);
+    font-family: var(--headline-font-family);
+    font-weight: var(--headline-font-weight);
+    color: var(--colors-text-black-100);
+    font-size: var(--headline-font-size);
+    letter-spacing: var(--headline-letter-spacing);
+    line-height: var(--headline-line-height);
+    font-style: var(--headline-font-style);
   margin-bottom: 4px;
 }
 
