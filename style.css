@@ -1,99 +1,108 @@
- .table-card {
-  display: flex;
-  flex-direction: column;
-  height: 136px;
-  width: 203.6px;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 16px;
-  position: relative;
-  background-color: #f7f3f2;
-  border-radius: 16px;
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-color: #D3D3D3;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-left: 20px; /* Moves the card 20px to the right */
-  margin-top: 20px;  /* Moves the card 20px down */
+/* Table Card Styles (Unchanged) */
+.table-card {
+    display: flex;
+    flex-direction: column;
+    height: 136px;
+    width: 203.6px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 16px;
+    position: relative;
+    background-color: #f7f3f2;
+    border-radius: 16px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-color: #D3D3D3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-/* Rest of your CSS remains the same */
 .table-card .titleing {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
 }
 
 .table-card .div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
 }
 
 .table-card .main-title {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: var(--title-2-font-family);
-  font-weight: var(--title-2-font-weight);
-  color: var(--colors-text-black-100);
-  font-size: var(--title-2-font-size);
-  letter-spacing: var(--title-2-letter-spacing);
-  line-height: var(--title-2-line-height);
-  font-style: var(--title-2-font-style);
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--title-2-font-family);
+    font-weight: var(--title-2-font-weight);
+    color: var(--colors-text-black-100);
+    font-size: var(--title-2-font-size);
+    letter-spacing: var(--title-2-letter-spacing);
+    line-height: var(--title-2-line-height);
+    font-style: var(--title-2-font-style);
 }
 
 .table-card .text-wrapper {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--caption-normal-font-family);
-  font-weight: var(--caption-normal-font-weight);
-  color: var(--colors-text-black-60);
-  font-size: var(--caption-normal-font-size);
-  letter-spacing: var(--caption-normal-letter-spacing);
-  line-height: var(--caption-normal-line-height);
-  font-style: var(--caption-normal-font-style);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--caption-normal-font-family);
+    font-weight: var(--caption-normal-font-weight);
+    color: var(--colors-text-black-60);
+    font-size: var(--caption-normal-font-size);
+    letter-spacing: var(--caption-normal-letter-spacing);
+    line-height: var(--caption-normal-line-height);
+    font-style: var(--caption-normal-font-style);
 }
 
 .table-card .status-time {
-  display: flex;
-  align-items: flex-end;
-  gap: 16px;
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
 }
 
 .table-card .status {
-  margin-top: -1.00px;
-  font-family: var(--caption-normal-font-family);
-  font-weight: var(--caption-normal-font-weight);
-  color: var(--colors-text-black-100);
-  font-size: var(--caption-normal-font-size);
-  letter-spacing: var(--caption-normal-letter-spacing);
-  line-height: var(--caption-normal-line-height);
-  position: relative;
-  align-self: stretch;
-  font-style: var(--caption-normal-font-style);
+    margin-top: -1.00px;
+    font-family: var(--caption-normal-font-family);
+    font-weight: var(--caption-normal-font-weight);
+    color: var(--colors-text-black-100);
+    font-size: var(--caption-normal-font-size);
+    letter-spacing: var(--caption-normal-letter-spacing);
+    line-height: var(--caption-normal-line-height);
+    position: relative;
+    align-self: stretch;
+    font-style: var(--caption-normal-font-style);
 }
 
+/* Modal Styles (Updated) */
 .modal {
-    display: flex;
+    display: none; /* Hidden by default, shown with .show class */
     flex-direction: column;
     width: 320px;
     align-items: center;
-    position: relative;
+    position: fixed; /* Center on the screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: var(--colors-background-white-100);
     border-radius: 24px;
     gap: var(--spacing-spacing-0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow to match image */
+}
+
+.modal.show {
+    display: flex; /* Show the modal when .show class is added */
 }
 
 .modal .modal-header {
@@ -129,7 +138,6 @@
     position: relative;
     background-color: var(--colors-background-white-100);
     border-radius: 48px;
-    box-shadow: 0px 0px 84px #00000080;
 }
 
 .modal .element-close {
@@ -176,10 +184,7 @@
     background-color: #ffffff;
     border-radius: 16px;
     border: 1px solid #0000001a;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* Removed position: absolute to let it flow naturally in the modal */
 }
 
 .modal .content {
