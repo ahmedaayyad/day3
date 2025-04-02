@@ -85,147 +85,87 @@
   font-style: var(--caption-normal-font-style);
 }
 
+/* Main Modal Styling */
 .modal {
   display: flex;
   flex-direction: column;
   width: 320px;
-  height: 268px;
   align-items: center;
   position: relative;
-  background-color: var(--colors-background-white-100);
-  border-radius: 24px;
-  gap: var(--spacing-spacing-0);
+  background-color: #f7f3f2; /* Matching card background */
+  border-radius: 16px; /* Rounded corners like the card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-left: 4px solid #D3D3D3; /* Matching border style */
 }
 
 /* Header Section */
 .modal .modal-header {
+  width: 100%;
   display: flex;
-  width: 100%; /* Ensure it spans the full width */
-  align-items: center;
   justify-content: space-between;
-  padding: 16px;
-  position: relative;
-  flex: 0 0 auto;
+  align-items: center;
 }
 
 .modal .modal-title {
-  position: relative;
-  flex: 1;
   font-family: var(--title-3-font-family);
   font-weight: var(--title-3-font-weight);
   color: #000000;
   font-size: var(--title-3-font-size);
   letter-spacing: var(--title-3-letter-spacing);
   line-height: var(--title-3-line-height);
-  font-style: var(--title-3-font-style);
 }
 
 .modal .iconic-buttons-large {
-  display: flex;
   width: 48px;
   height: 48px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  position: relative;
-  background-color: var(--colors-background-white-100);
-  border-radius: 48px;
-  box-shadow: 0px 0px 84px #00000080;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 84px rgba(0, 0, 0, 0.5);
 }
 
-.modal .element-close {
-  position: relative;
-  width: 24px;
-  height: 24px;
-}
-
-/* Content Section */
-.modal .frame {
-  gap: var(--spacing-spacing-4);
-  padding: 0px var(--spacing-spacing-4);
-  display: flex;
-  flex-direction: column;
-  width: 100%; /* Ensure it spans the full width */
-  align-items: flex-start;
-  position: relative;
-  flex: 1; /* Allow it to take remaining space */
-}
-
+/* Confirmation Text */
 .modal .text-wrapper {
-  position: relative;
-  align-self: stretch;
-  margin-top: 0; /* Remove negative margin for better spacing */
+  width: 100%;
+  text-align: left;
   font-family: var(--body-normal-font-family);
   font-weight: var(--body-normal-font-weight);
   color: #000000;
   font-size: var(--body-normal-font-size);
-  letter-spacing: var(--body-normal-letter-spacing);
-  line-height: var(--body-normal-line-height);
-  font-style: var(--body-normal-font-style);
+  margin-top: 8px;
 }
 
+/* Item Information Card */
 .modal .component {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--spacing-spacing-3);
-  padding: var(--spacing-spacing-3);
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 16px;
-  border: 1px solid;
-  border-color: #0000001a;
-}
-
-.modal .content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-  position: relative;
-  align-self: stretch;
+  border: 1px solid #0000001a;
+  padding: 12px;
   width: 100%;
-  flex: 0 0 auto;
+  margin-top: 12px;
 }
 
 .modal .food-name {
-  position: relative;
-  align-self: stretch;
-  margin-top: 0; /* Remove negative margin */
   font-family: var(--headline-font-family);
   font-weight: var(--headline-font-weight);
   color: var(--colors-text-black-100);
   font-size: var(--headline-font-size);
-  letter-spacing: var(--headline-letter-spacing);
-  line-height: var(--headline-line-height);
-  font-style: var(--headline-font-style);
 }
 
 .modal .subtitle {
-  position: relative;
-  align-self: stretch;
   font-family: var(--caption-normal-font-family);
   font-weight: var(--caption-normal-font-weight);
   color: #00000099;
   font-size: var(--caption-normal-font-size);
-  letter-spacing: var(--caption-normal-letter-spacing);
-  line-height: var(--caption-normal-line-height);
-  font-style: var(--caption-normal-font-style);
 }
 
 /* Button Section */
 .modal .medium-button-wrapper {
-  gap: 8px;
-  padding: var(--spacing-spacing-4);
-  display: flex;
-  flex-direction: column;
-  width: 100%; /* Ensure it spans the full width */
-  align-items: center; /* Center the button */
-  position: relative;
-  flex: 0 0 auto;
+  width: 100%;
+  margin-top: 12px;
 }
 
 .modal .medium-button {
@@ -233,24 +173,12 @@
   height: 48px;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  padding: 0px 32px;
-  position: relative;
-  align-self: stretch;
   width: 100%;
-  background-color: var(--colors-background-semantic-red-100);
+  background-color: red;
+  color: white;
   border-radius: 32px;
-}
-
-.modal .text-button {
-  position: relative;
-  width: fit-content;
   font-family: var(--button-large-font-family);
   font-weight: var(--button-large-font-weight);
-  color: var(--colors-text-white-100);
   font-size: var(--button-large-font-size);
-  letter-spacing: var(--button-large-letter-spacing);
-  line-height: var(--button-large-line-height);
-  white-space: nowrap;
-  font-style: var(--button-large-font-style);
+  cursor: pointer;
 }
