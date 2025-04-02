@@ -327,7 +327,7 @@
 .frame { 
  display: flex; 
  flex-direction: column; 
- height: 682px; 
+ height: 300px; 
  width: 355px; 
  align-items: flex-start; 
  gap: 16px;
