@@ -136,11 +136,13 @@
 .modal .text-wrapper {
   width: 100%;
   text-align: left;
-  font-family: var(--body-normal-font-family);
-  font-weight: var(--body-normal-font-weight);
-  font-size: var(--body-normal-font-size);
-  color: #333;
-  margin-bottom: 12px;
+    font-family: var(--body-normal-font-family);
+    font-weight: var(--body-normal-font-weight);
+    color: #000000;
+    font-size: var(--body-normal-font-size);
+    letter-spacing: var(--body-normal-letter-spacing);
+    line-height: var(--body-normal-line-height);
+    font-style: var(--body-normal-font-style);
 }
 
 /* Item Information Card */
