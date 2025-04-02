@@ -217,6 +217,7 @@
   gap: var(--spacing-spacing-41);
   padding: 0px var(--spacing-spacing-41) 0px var(--spacing-spacing-41);
   position: relative;
+  background-color: #FFE6E6; /* Add this line to set the background color */
 }
 
 .tables1 .row1 {
