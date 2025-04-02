@@ -169,7 +169,6 @@
     align-items: flex-start;
     gap: var(--spacing-spacing-3);
     padding: var(--spacing-spacing-3);
-    position: center;
     align-self: stretch;
     width: 288px;
     height: 68px;
@@ -177,6 +176,10 @@
     background-color: #ffffff;
     border-radius: 16px;
     border: 1px solid #0000001a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modal .content {
