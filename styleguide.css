@@ -63,4 +63,22 @@
   --colors-background-semantic-red-100: rgba(225, 14, 14, 1);
   --colors-border-black-20: rgba(0, 0, 0, 0.2);
   --colors-text-black-60: rgba(0, 0, 0, 0.6);
+
+    /* Typography */
+  --headline-font-family1: "DM Sans", Helvetica;
+  --headline-font-weight1: 500;
+  --headline-font-size1: 20px;
+  --headline-line-height1: 24px;
+  --headline-letter-spacing1: -0.2px;
+  --headline-font-style1: normal;
+
+  /* Spacing */
+  --spacing-spacing-41: 16px;
+
+  /* Colors */
+  --colors-text-black-1001: rgba(0, 0, 0, 1);
+  --colors-background-white-601: rgba(255, 255, 255, 0.6);
+  --colors-border-status-occupied1: rgba(255, 95, 95, 1);
+  --colors-border-status-accepted1: rgba(17, 151, 23, 1);
+
 }
